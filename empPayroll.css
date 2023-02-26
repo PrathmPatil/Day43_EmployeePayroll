@@ -1,6 +1,7 @@
 body {
-    margin: 0;
+    margin: 10;
     height: 100%;
+    /* background-color: antiquewhite; */
 }
 
 .header {
@@ -52,12 +53,9 @@ body {
 }
 
 .row-content {
+    display: flex;
+    flex-direction: row;
     margin-bottom: 10px;
-    align-items: center;
-}
-
-.row-content .label text {
-    margin-left: 10px;
     align-items: center;
 }
 
@@ -84,7 +82,6 @@ label {
 }
 
 .profile-radio-content {
-    margin: 20px;
     display: flex;
     flex-direction: row;
 }
